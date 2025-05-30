@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of John Doe, a passionate web developer specializing in modern web technologies.">
+    <title>John Doe | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>John Doe</h1>
+        <p>Web Developer &amp; Designer</p>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer with experience in building responsive and accessible websites using modern technologies. I enjoy solving problems and creating user-friendly digital experiences.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Open source project dashboard screenshot from Unsplash">
+                    <figcaption>Project 1: Task Tracker App</figcaption>
+                </figure>
+                <h3>Task Tracker App</h3>
+                <p>A productivity web app to manage daily tasks efficiently. Built with React and Node.js.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Open source portfolio website screenshot from Unsplash">
+                    <figcaption>Project 2: Portfolio Website</figcaption>
+                </figure>
+                <h3>Portfolio Website</h3>
+                <p>My personal portfolio showcasing my projects and skills. Built with HTML5, CSS3, and JavaScript.</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Frontend:</strong> HTML5 &amp; CSS3, JavaScript (ES6+), React.js</li>
+                <li><strong>Backend:</strong> Node.js</li>
+                <li><strong>Tools:</strong> Git &amp; GitHub</li>
+                <li><strong>Other:</strong> Accessibility (WCAG), Responsive Design</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form" action="#" method="post" aria-label="Contact Form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required autocomplete="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> John Doe. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
